@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Pretendard-Regular1';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+.Dct-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 16px;
+}
+.Dct-span{
+    font-family: 'Pretendard-Regular1';
+    font-weight: 600;
+    font-size: 18px;
+}
+.Dct-full{
+    font-weight: 560;
+    letter-spacing: -.4px;
+    align-items: center;
+    display: flex;
+    color: #2572f7;
+    font-size: 14px;
+    cursor: pointer;
+}

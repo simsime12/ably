@@ -1,0 +1,36 @@
+.nav{
+}
+.searchbox{
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    background-color: white;
+    
+}
+.searchbtn{
+    display: flex;
+    margin: 14px 8px 10px 16px;
+    padding: 10px;
+    flex: 1 1 0%;
+    height: 35px;
+    gap: 4px;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+    border-radius: 8px;
+    cursor: pointer;
+}
+.search-write{
+    color: gray;
+    font-size: 14px;
+    font-family: 'KimjungchulGothic-Bold';
+}
+.cart{
+    margin-right: 9px;
+}
+@font-face {
+    font-family: 'KimjungchulGothic-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/KimjungchulGothic-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
