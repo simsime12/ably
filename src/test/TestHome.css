@@ -1,0 +1,17 @@
+.testContainer {
+  width: 100vw;
+  height: 100vh;
+  background-color: red;
+}
+.testContainer .box {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.itemArea {
+  background-color: blue;
+  width: 100%;
+  max-width: 600px;
+  height: 100%;
+}

@@ -3,12 +3,13 @@ import "./App.css";
 
 import { createBrowserRouter, RouterProvider, Link } from "react-router-dom";
 import Home from "./page/home/Home";
+import TestHome from "./test/TestHome";
 
 function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <Home />,
+      element: <TestHome />,
     },
     {
       path: "/search",
@@ -16,7 +17,7 @@ function App() {
     },
   ]);
   return (
-    <div className="App">
+    <div>
       <RouterProvider router={router} />
     </div>
   );
