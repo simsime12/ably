@@ -1,24 +1,23 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Top from "./container/Top";
-import Body from "./body/Body";
-import Searchbtn from "./search/Searchbtn";
-import PictureSlider from "./slick/PictureSlider";
-import Category from "./menu/Category";
-import Shopping from "./store/Shopping";
-import Dct from "./discount/Dct";
-import Routesearch from "./searchRoute/Routesearch";
-import { BrowserRouter, Switch, Routes, Route } from "react-router-dom";
+
+import { createBrowserRouter, RouterProvider, Link } from "react-router-dom";
+import Home from "./page/home/Home";
 
 function App() {
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Home />,
+    },
+    {
+      path: "/search",
+      element: <div>Search page</div>,
+    },
+  ]);
   return (
     <div className="App">
-      <Top />
-      <Searchbtn />
-      <PictureSlider />
-      <Category />
-      <Dct />
-      <Shopping />
+      <RouterProvider router={router} />
     </div>
   );
 }
